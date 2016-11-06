@@ -11,6 +11,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Tela05 extends JFrame {
 
@@ -165,6 +167,11 @@ public class Tela05 extends JFrame {
 		contentPane.add(btnCadastrar);
 
 		JButton btnLimpar = new JButton("Limpar");
+		btnLimpar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				limpaCampos();
+					}
+		});
 		btnLimpar.setBounds(191, 419, 86, 23);
 		contentPane.add(btnLimpar);
 
@@ -201,6 +208,21 @@ public class Tela05 extends JFrame {
 		textField_11.setBounds(132, 306, 344, 46);
 		contentPane.add(textField_11);
 		textField_11.setColumns(10);
+	}
+	
+	void limpaCampos(){
+		textField.setText("");
+		textField_1.setText("");
+		textField_2.setText("");
+		textField_3.setText("");
+		textField_4.setText("");
+		textField_5.setText("");
+		textField_6.setText("");
+		textField_7.setText("");
+		textField_8.setText("");
+		textField_9.setText("");
+		textField_10.setText("");
+		textField_11.setText("");
 	}
 
 }
