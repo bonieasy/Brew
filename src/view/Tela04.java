@@ -1,32 +1,27 @@
 package view;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
-import javax.swing.JTabbedPane;
-import javax.swing.JInternalFrame;
-import javax.swing.JDesktopPane;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JLayeredPane;
-import javax.swing.border.TitledBorder;
 import java.awt.Color;
-import javax.swing.JLabel;
+import java.awt.EventQueue;
 import java.awt.Font;
-import javax.swing.SwingConstants;
-import javax.swing.JList;
-import javax.swing.JTextArea;
-import javax.swing.ImageIcon;
-import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JLayeredPane;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.TitledBorder;
 
 public class Tela04 extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8339742370937858221L;
+	
 	private JPanel contentPane;
 
 	/**

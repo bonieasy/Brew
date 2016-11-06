@@ -1,45 +1,29 @@
 package view;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
 import java.awt.Color;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JTable;
-import javax.swing.JTextPane;
-import java.awt.Panel;
-import javax.swing.JSpinner;
-import javax.swing.JFormattedTextField;
-import javax.swing.JSlider;
-import javax.swing.JSplitPane;
-import javax.swing.JToolBar;
-import javax.swing.LayoutStyle.ComponentPlacement;
-import javax.swing.JDesktopPane;
-import javax.swing.JScrollPane;
-import javax.swing.JTabbedPane;
-import javax.swing.JInternalFrame;
-import javax.swing.JComboBox;
-import javax.swing.JTree;
-import java.awt.ScrollPane;
-import javax.swing.JList;
-import java.awt.List;
-import java.awt.Choice;
-import javax.swing.JButton;
-import java.awt.Font;
-import javax.swing.SwingConstants;
-import org.eclipse.wb.swing.FocusTraversalOnArray;
 import java.awt.Component;
+import java.awt.EventQueue;
+import java.awt.Font;
+
+import javax.swing.JButton;
+import javax.swing.JDesktopPane;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JSpinner;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
 import javax.swing.border.TitledBorder;
-import javax.swing.ImageIcon;
+
+import org.eclipse.wb.swing.FocusTraversalOnArray;
 
 public class Tela03 extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6302290582798944279L;
 	private JPanel contentPane;
 	private JTextField textField;
 	private JTextField textField_1;

@@ -1,26 +1,27 @@
 package view;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import java.awt.FlowLayout;
 import java.awt.Color;
-import javax.swing.JLayeredPane;
-import javax.swing.JLabel;
+import java.awt.EventQueue;
 import java.awt.Font;
-import javax.swing.SwingConstants;
+
 import javax.swing.JButton;
-import javax.swing.border.TitledBorder;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
 import javax.swing.UIManager;
-import javax.swing.ImageIcon;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.TitledBorder;
 
 public class Tela08 extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8997375779317775476L;
 	private JPanel contentPane;
 
+	
 	/**
 	 * Launch the application.
 	 */

@@ -8,7 +8,6 @@ import javax.swing.JLabel;
 import javax.swing.JButton;
 import java.awt.Font;
 import java.awt.Color;
-import javax.swing.ImageIcon;
 import javax.swing.SwingConstants;
 
 import controller.LoginController;
